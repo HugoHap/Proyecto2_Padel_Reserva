@@ -2,35 +2,29 @@
 
 |  Method  | URL | Description |
 | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
+| GET  | /  | Landing Page  |
+| GET  | /registro  | Register From Render  |
+| POST  | /registro  | Register Form Post  |
+| GET  | /iniciar-sesion  | Landing Page  |
+| POST  | /iniciar-sesion  | Landing Page  |
+| POST  | /cerrar-sesion  | Landing Page  |
+| GET  | /perfil/:id  | Landing Page  |
+| POST  | /perfil/:id/edit  | Landing Page  |
+| POST  | /perfil/:id/edit  | Landing Page  |
+| POST | /perfil/:id/eliminar  | Landing Page  |
+| GET  | /partidos  | Landing Page  |
+| GET  | /partidos/crear  | Landing Page  |
+| POST | /partidos/crear  | Landing Page  |
+| GET  | /partidos/:id  | Landing Page  |
+| POST  | /partidos/:id/editar  | Landing Page  |
+| POST | /partidos/:id/eliminar  | Landing Page  |
+| POST | /partidos/:id/ | Match Comment POST
+| POST  | /partidos:id/eliminar-comentario  | Landing Page  |
+| GET  | /clubes  | Landing Page  |
+| GET  | /clubes/crear  | Landing Page  |
+| POST  | /clubes/crear  | Landing Page  |
+| GET  | /clubes/:id/editar  | Landing Page  |
+| POST  | /clubes/:id/editar  | Landing Page  |
+| POST  | /clubes/:id/eliminar  | Landing Page  |
+| GET  | /api/matches  | Api Info  |
 
-GET	/	Landing	
-GET	/registro	Register Form Render	
-POST	/registro	Register Form Post	
-GET	/iniciar-sesion	Login Render
-POST	/iniciar-sesion	Login Post
-POST	/cerrar-sesion	Log-out	
-GET	/perfil/:id	User profile
-POST	/perfil/:id/edit	User edit form GET
-POST	/perfil/:id/edit	User edit form POST	
-POST	/perfil/:id/eliminar	User DELETE form POST	
-GET	/partidos	Match list	
-GET	/partidos/crear	Create match Render
-POST /partidos/crear	Create match Post	
-GET	/usuario/:id/:casoId	Case details	
-GET	/usuario/:id/:casoId/editar	Case edit	
-POST	/usuario/:id/:casoId/editar	Case edit POST	
-POST	/usuario/:id/:casoId/eliminar	Case edit DELETE	
-POST	/usuario/:id/caso/reportar	Case report	
-POST	/usuario/:id/caso/comentar	Case comment	
-POST	/usuario/:id/caso/eliminar-comentario	Case comment delete --	
-GET	/eventos/	Event list	
-GET	/evento/crear	Event create	
-POST	/evento/crear	Event create	
-GET	/evento/:id/editar	Event edit	
-POST	/evento/:id/editar	Event edit	
-POST	/evento/:id/borrar	Event delete	
-POST	/evento/:id/unirse	Event join	
-POST	/evento/:id/des-unirse	Event un-join	
-GET	/api/cases	Cases API
