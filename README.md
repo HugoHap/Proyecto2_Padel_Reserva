@@ -1,5 +1,3 @@
-# Proyecto2_Padel_Reserva
-
 |  Method  | URL | Description |
 | ------------- | ------------- | ------------- |
 | GET  | /  | Landing Page  |
